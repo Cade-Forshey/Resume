@@ -1,0 +1,96 @@
+/*body {
+    background-image: linear-gradient(white, rgb(197, 225, 235));
+    max-height: 100%;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+/* ------------------OFF SCREEN MENU END-------------- */
+
+ /*==========Tablet Media Query==========*/
+ @media screen and (min-width: 769px) {
+ }
+ /*==========End Tablet Meida Query==========*/
+ /*==========Desktop Media Query==========*/
+ @media screen and (min-width: 1025px) {
+}
+ /*==========End Desktop Media Query==========*/
+ /*==========Large Display Query==========*/
+ @media screen and (min-width: 1850px) {
+ }
+ /*==========End Large Display Media Query==========*/
+
+#profile-picture {
+    border: 3.5px dotted white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+#name {
+    padding: 60px 0px 0px 35px;
+    color: rgb(255, 128, 0);
+}
+
+#phone {
+    padding: 10px 0px 0px 275px;
+    color: rgb(173, 79, 12);
+}
+
+#address {
+    padding: 15px 0px 0px 1300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* #main {
+    height: 250px;
+    width: 250px;
+}
+
+ .row {
+    
+ }
+
+ .col {
+
+ }
+
+ .header {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+ }
+
+ button {
+
+ }*/
