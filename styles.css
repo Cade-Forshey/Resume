@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: black;
 }
 /* ------------------OFF SCREEN MENU END-------------- */
 
@@ -23,18 +22,15 @@ body {
     float: left;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
-    color: white;
-}
 
 #name {
     padding: 160px 0px 0px 35px;
-    color: rgb(255, 128, 0);
+    color: rgb(0, 0, 0);
 }
 
 #phone {
     padding: 10px 0px 0px 275px;
-    color: rgb(173, 79, 12);
+    color: rgba(0, 0, 0, 0.484);
 }
 
 #address {
@@ -49,13 +45,14 @@ table {
     margin: 50px;
     margin-top: 100px;
     padding: 10px;
-    border: 3px solid white;
+    border: 3px dashed rgb(0, 0, 0);
 }
 
 #personal {
     width: 250px;
     height: 225px;
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 #personal-yap {
@@ -68,7 +65,7 @@ table {
 #previous-work {
     width: 250px;
     height: 225px;
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 #previous-work-yap {
@@ -83,7 +80,7 @@ table {
     width: fit-content;
     height: fit-content;
     font-size: larger;
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 #education {
@@ -91,7 +88,11 @@ table {
     width: fit-content;
     height: fit-content;
     font-size: larger;
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+h2 li h3 h4 {
+    color: white;
 }
 
 
@@ -105,64 +106,15 @@ table {
 
 
 
-
-
-/* Tablet Media Query */
+/*==========Tablet Media Query==========*/
 @media screen and (min-width: 769px) {
-    .container {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(230px, 1fr));
-        grid-gap: 20px;
-        padding: 20px;
-    }
 }
-/* end */
-
-
-/* Tablet Media Query */
-@media screen and (min-width: 769px) {
-    .container {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(230px, 1fr));
-        grid-gap: 20px;
-        padding: 20px;
-    }
-}
-/* end */
-
-
-/* Desktop Media Query */
-@media screen and (min-width: 1025px) {
-    .container  {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(230px, 1fr));
-        grid-gap: 20px;
-        padding: 20px;
-    }
-}
-/* end */
-
-
-
- /* #main {
-    height: 250px;
-    width: 250px;
-}
-
- .row {
-    
+ /*==========End Tablet Meida Query==========*/
+ /*==========Desktop Media Query==========*/
+ @media screen and (min-width: 1025px) {
  }
-
- .col {
-
+ /*==========End Desktop Media Query==========*/
+ /*==========Large Display Query==========*/
+ @media screen and (min-width: 1850px) {
  }
-
- .header {
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
- }
-
- button {
-
- }*/
+ /*==========End Large Display Media Query==========*/
