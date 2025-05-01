@@ -11,18 +11,7 @@ body {
 }
 /* ------------------OFF SCREEN MENU END-------------- */
 
- /*==========Tablet Media Query==========*/
- @media screen and (min-width: 769px) {
- }
- /*==========End Tablet Meida Query==========*/
- /*==========Desktop Media Query==========*/
- @media screen and (min-width: 1025px) {
-}
- /*==========End Desktop Media Query==========*/
- /*==========Large Display Query==========*/
- @media screen and (min-width: 1850px) {
- }
- /*==========End Large Display Media Query==========*/
+ 
 
 #profile-picture {
     border: 3.5px dotted white;
@@ -31,16 +20,15 @@ body {
     margin-top: 20px;
     width: 250px;
     height: 250px;
-
     float: left;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li {
     color: white;
 }
 
 #name {
-    padding: 60px 0px 0px 35px;
+    padding: 160px 0px 0px 35px;
     color: rgb(255, 128, 0);
 }
 
@@ -53,6 +41,58 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 15px 0px 0px 1300px;
 }
 
+table {
+    width: 100%;
+}
+
+.container {
+    margin: 50px;
+    margin-top: 100px;
+    padding: 10px;
+    border: 3px solid white;
+}
+
+#personal {
+    width: 250px;
+    height: 225px;
+    background-color: rgb(255, 128, 0);
+}
+
+#personal-yap {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: larger;
+}
+
+#previous-work {
+    width: 250px;
+    height: 225px;
+    background-color: rgb(255, 128, 0);
+}
+
+#previous-work-yap {
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: larger;
+}
+
+#contacts {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    font-size: larger;
+    background-color: rgb(255, 128, 0);
+}
+
+#education {
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    font-size: larger;
+    background-color: rgb(255, 128, 0);
+}
 
 
 
@@ -67,8 +107,40 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 
+/* Tablet Media Query */
+@media screen and (min-width: 769px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+/* end */
 
 
+/* Tablet Media Query */
+@media screen and (min-width: 769px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+/* end */
+
+
+/* Desktop Media Query */
+@media screen and (min-width: 1025px) {
+    .container  {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+/* end */
 
 
 
